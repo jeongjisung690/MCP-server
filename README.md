@@ -21,3 +21,8 @@ pip install -r requirements.txt
 
 # サーバ起動
 uvicorn main:app --reload
+
+# クライアント立ち上げ
+python3 client.py
+
+let's ask "課題の〆切を教えて" etc.

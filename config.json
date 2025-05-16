@@ -1,6 +1,6 @@
 {
     "moodle": {
         "base_url": "https://moodle.el.okayama-u.ac.jp",
-        "token": "972030907d2e18bdb541fa17af2fe373"
+        "token": "YOUR_TOKEN"
     }
 }

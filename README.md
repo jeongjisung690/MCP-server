@@ -13,16 +13,18 @@ structure
 
 if you wanna try it. do following steps...
 before starting the following steps, you need intstall ollama mistral, and relevant python lib.
-# モデルを起動（別ターミナル）
-ollama run mistral
-
-# Python環境セットアップ
+## Python環境セットアップ
 pip install -r requirements.txt
-
-# サーバ起動
+## サーバ起動
 uvicorn main:app --reload
-
-# クライアント立ち上げ
+## クライアント立ち上げ
 python3 client.py
 
-let's ask "課題の〆切を教えて" etc.
+# 実行方法
+1．3つターミナル立ち上げ
+2．各ターミナルで，以下のコマンド実行
+  - ollama serve
+  - uvicorn main:app --reload
+  - python3 client.py
+3. クライアント側で質問受付中になるので，質問してみる．例）課題の〆切が近い科目教えて．
+

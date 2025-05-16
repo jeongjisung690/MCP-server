@@ -22,9 +22,11 @@ python3 client.py
 
 # 実行方法
 1．3つターミナル立ち上げ
+
 2．各ターミナルで，以下のコマンド実行
   - ollama serve
   - uvicorn main:app --reload
   - python3 client.py
+
 3. クライアント側で質問受付中になるので，質問してみる．例）課題の〆切が近い科目教えて．
 

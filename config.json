@@ -1,0 +1,11 @@
+{
+    "moodle": {
+        "base_url": "YOUR_MOODLE_URL",
+        "token": "YOUR_TOKEN"
+    },
+    "llm": {
+        "type": "openai",
+        "model": "gpt-4o",
+        "api_key": "YOUR_OPENAI_KEY"
+    }
+}

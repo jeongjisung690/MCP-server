@@ -24,6 +24,7 @@ this MCP server can assist following thing,
 
 
 ## How to run
+assamption : you installed python=3.13
 0. firstly, you have to set your personal info on "config.json"
 ```
 1. $ python -m venv venv

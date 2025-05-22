@@ -24,9 +24,11 @@ this MCP server can assist following thing,
 
 
 ## How to run
+'''
 1. $ python -m venv venv
 2. $ source venv/bin/activate # macOS/Linux
    $ .\venv\Scripts\activate # windows PowerShell
 3. $ pip install -r requirements.txt
 4. $ uvicorn main:app --reload --port YOUR_PORT_NUM
 5. open http://localhost:YOUR_PORT
+'''
